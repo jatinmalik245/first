@@ -3,12 +3,12 @@ add.addEventListener("click",addTask)
 let Tasks=[];
 
 function addTask(){
-    //const input=document.getElementById("task")
-    // Tasks.push(input.value)
-    // input.value=""
-    // input.focus();
-    let task=prompt("enter the task")
-    Tasks.push(task)
+    const input=document.getElementById("task")
+    Tasks.push(input.value)
+    input.value=""
+    input.focus();
+    // let task=prompt("enter the task")
+    // Tasks.push(task)
     display()
 
 }
