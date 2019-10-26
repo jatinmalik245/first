@@ -1,0 +1,26 @@
+div {
+    text-align:center;
+    max-width: 250px;
+    margin :0 auto;
+    border: 1px solid black;
+
+}
+
+#add {
+    margin-left: 10px;
+}
+td{
+    text-align: left;
+    padding-left:10px;
+}
+
+.first{
+    width:78%;
+}
+
+
+
+div table button{
+    margin-left:20px;
+    margin-right:10px;
+}
