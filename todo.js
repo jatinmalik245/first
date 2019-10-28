@@ -4,8 +4,10 @@ let Tasks=[];
 
 function addTask(){
     const input=document.getElementById("task")
-    Tasks.push(input.value)
+    if(input.value.length>2)
+        Tasks.push(input.value)
     input.value=""
+    // console.log(Tasks)
     input.focus();
     // let task=prompt("enter the task")
     // Tasks.push(task)
@@ -27,7 +29,7 @@ function display(){
             tr.appendChild(td);
             let btn=document.createElement("button")
             btn.textContent="delete"
-            btn.onclick= function (){
+            btn.onclick = function (){
                 deleteTask(i);
             }
             tdbtn.appendChild(btn)

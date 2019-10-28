@@ -3,7 +3,17 @@ div {
     max-width: 250px;
     margin :0 auto;
     border: 1px solid black;
+    background-color: #ffaabb;
+}
 
+div input{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+button{
+    cursor: pointer;
 }
 
 #add {
@@ -12,6 +22,29 @@ div {
 td{
     text-align: left;
     padding-left:10px;
+}
+
+tr:nth-child(odd){
+    color: green;
+}
+
+tr:nth-child(odd) button{
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(even) button{
+    background-color: green;
+    color: white;
+}
+
+tr button{
+    border: none;
+    
+}
+
+tr:nth-child(even){
+    color: red;
 }
 
 .first{
