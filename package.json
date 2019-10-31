@@ -1,0 +1,24 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinmalik245/first.git"
+  },
+  "author": "Jatin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatinmalik245/first/issues"
+  },
+  "homepage": "https://github.com/jatinmalik245/first#readme"
+}
